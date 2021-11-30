@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar 22 18:26:12 2020
+
+@author: mzwonton
+"""
+
+def factorSum(num):
+    
+    if num == 0:
+        return 0
+    
+    return num + factorSum(num -1)
+        
+print(factorSum(9))  
+print(9+8+7+6+5+4+3+2+1)  
